@@ -1,17 +1,57 @@
 [
   {
-    "device": "cpap",
-    "question": "How do I clean my CPAP mask?",
-    "answer": "Wash it daily with mild soap and warm water."
+    "device": "AirSense 11",
+    "question": "How do I clean the AirSense 11 mask?",
+    "answer": "Wash it daily using warm water and mild detergent. Let it air dry."
   },
   {
-    "device": "cpap",
-    "question": "Can I travel with my CPAP machine?",
-    "answer": "Yes, CPAP devices are travel-friendly and TSA-compliant."
+    "device": "AirSense 11",
+    "question": "How do I use AirSense 11?",
+    "answer": "Wash it daily using warm water and mild detergent. Let it air dry."
   },
   {
-    "device": "insulin_pump",
-    "question": "How do I change the battery in my insulin pump?",
-    "answer": "Use the instructions in your user manual and replace with a new AA battery."
+    "device": "AirSense 10",
+    "question": "How do I adjust humidity settings on the AirSense 10?",
+    "answer": "Use the dial to navigate to the humidity control screen and adjust as needed."
+  },
+  {
+    "device": "AirCurve 10",
+    "question": "Can I travel with the AirCurve 10?",
+    "answer": "Yes, it is FAA-approved for air travel. Use a travel case for protection."
+  },
+  {
+    "device": "DreamStation 2",
+    "question": "What filters does the DreamStation 2 use?",
+    "answer": "It uses both reusable pollen filters and optional disposable ultra-fine filters."
+  },
+  {
+    "device": "ResMed Lumis",
+    "question": "How do I access therapy data on ResMed Lumis?",
+    "answer": "Navigate through the clinical menu to view detailed therapy statistics."
+  },
+  {
+    "device": "Philips Respironics",
+    "question": "How do I reset the Philips Respironics device?",
+    "answer": "Hold down the ramp button for 10 seconds until the screen flashes."
+  },
+  {
+    "device": "DeVilbiss IntelliPAP",
+    "question": "How do I replace the water chamber on DeVilbiss IntelliPAP?",
+    "answer": "Slide out the chamber from the humidifier base and insert a new one."
+  },
+  {
+    "device": "Fisher & Paykel SleepStyle",
+    "question": "How do I enable airplane mode on SleepStyle?",
+    "answer": "Press and hold the menu button until the airplane icon appears."
+  },
+  {
+    "device": "Lowenstein Prisma",
+    "question": "How do I update the firmware on Prisma?",
+    "answer": "Firmware updates require a USB stick and software provided by the manufacturer."
+  },
+  {
+    "device": "Other Medical Device",
+    "question": "What should I do if my device displays an error code?",
+    "answer": "Refer to the user manual or contact your provider for troubleshooting steps."
   }
 ]
