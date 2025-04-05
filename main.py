@@ -4,18 +4,8 @@ from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
 import json
-from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://med-view-ai-system-frontend.vercel.app/"],  # or ["*"] for dev
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 class ChatRequest(BaseModel):
@@ -41,7 +31,7 @@ for device, faqs in grouped.items():
     embeddings = model.encode(questions, convert_to_numpy=True)
     index = faiss.IndexFlatL2(embeddings.shape[1])
     index.add(embeddings)
-    device_data[device.lower()] = {
+    device_data[device] = {
         "questions": questions,
         "answers": answers,
         "index": index
