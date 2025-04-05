@@ -2,4 +2,5 @@ fastapi
 uvicorn
 faiss-cpu
 sentence-transformers
+transformers>=4.35.0
 numpy
