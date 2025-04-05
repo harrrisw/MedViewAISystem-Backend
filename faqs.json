@@ -1,0 +1,17 @@
+[
+  {
+    "device": "cpap",
+    "question": "How do I clean my CPAP mask?",
+    "answer": "Wash it daily with mild soap and warm water."
+  },
+  {
+    "device": "cpap",
+    "question": "Can I travel with my CPAP machine?",
+    "answer": "Yes, CPAP devices are travel-friendly and TSA-compliant."
+  },
+  {
+    "device": "insulin_pump",
+    "question": "How do I change the battery in my insulin pump?",
+    "answer": "Use the instructions in your user manual and replace with a new AA battery."
+  }
+]
