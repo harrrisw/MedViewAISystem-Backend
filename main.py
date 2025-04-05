@@ -53,10 +53,10 @@ def ask_faq(req: ChatRequest):
     if similarity > 0.7:
         return {
             "answer": entry["answers"][best_idx],
-            "similarity": round(similarity, 2)
+            "similarity": float(round(similarity, 2))
         }
     else:
         return {
             "answer": f"Sorry, I couldn’t find a good answer for your {device} question.",
-            "similarity": round(similarity, 2)
+            "similarity": float(round(similarity, 2))
         }
