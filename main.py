@@ -16,7 +16,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
+model = None
 
 class ChatRequest(BaseModel):
     device: str
@@ -46,6 +46,13 @@ for device, faqs in grouped.items():
         "answers": answers,
         "index": index
     }
+
+@app.get("/ping")
+def ping():
+    global model
+    if model is None:
+        model = SentenceTransformer("all-MiniLM-L6-v2")
+    return {"status": "ok", "model_loaded": model is not None}
 
 @app.post("/ask")
 def ask_faq(req: ChatRequest):
