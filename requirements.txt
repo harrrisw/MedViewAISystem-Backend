@@ -1,7 +1,7 @@
 fastapi
 uvicorn
 faiss-cpu
-sentence-transformers=
+sentence-transformers
 transformers
 torch
 huggingface_hub
