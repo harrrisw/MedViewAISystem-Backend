@@ -81,7 +81,8 @@ def load_device_data(model_name: str):
 @app.post("/ask")
 def ask_faq(req: ChatRequest):
     entry = load_device_data(req.device)
-    user_embedding = model.encode([req.question])[0]
+    user_query = req.question.lower().replace(req.device.lower(), "").strip()
+    user_embedding = model.encode([user_query])[0]
     D, I = entry["index"].search(np.array([user_embedding]), k=1)
     best_idx = I[0][0]
     distance = D[0][0]
