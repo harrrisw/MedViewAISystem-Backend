@@ -1,8 +1,16 @@
 fastapi
-uvicorn
-faiss-cpu
+uvicorn[standard]
+pymongo
+python-dotenv
+
+# Embeddings & semantic similarity
 sentence-transformers
 transformers
 torch
 huggingface_hub
+
+# Vector indexing
+faiss-cpu
+
+# Utilities
 numpy

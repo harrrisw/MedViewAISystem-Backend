@@ -1,11 +1,18 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from sentence_transformers import SentenceTransformer
+from pymongo import MongoClient
 import faiss
 import numpy as np
-import json
 from fastapi.middleware.cors import CORSMiddleware
 
+# Load environmental variable
+import os
+from dotenv import load_dotenv
+
+load_dotenv()  
+
+# Initialize FastAPI app
 app = FastAPI()
 
 app.add_middleware(
@@ -22,43 +29,59 @@ class ChatRequest(BaseModel):
     device: str
     question: str
 
-# device -> {'questions': [...], 'answers': [...], 'index': FAISS}
-device_data = {}
+# MongoDB setup
+MONGO_URI = os.getenv("MONGO_URI")
+DB_NAME = "mdvd"
+COLLECTION_NAME = "mdve"
 
-with open("faqs.json") as f:
-    all_faqs = json.load(f)
+print("Mongo URI:", MONGO_URI)
 
-# Group by device
-grouped = {}
-for item in all_faqs:
-    device = item["device"].lower()
-    grouped.setdefault(device, []).append(item)
+client = MongoClient(MONGO_URI)
+collection = client[DB_NAME][COLLECTION_NAME]
 
-# Create index per device
-for device, faqs in grouped.items():
-    questions = [f["question"] for f in faqs]
-    answers = [f["answer"] for f in faqs]
+# Cache FAISS indexes per model
+device_cache = {}
+
+def load_device_data(model_name: str):
+    # model_name = model_name.lower()
+    if model_name in device_cache:
+        return device_cache[model_name]
+
+    doc = collection.find_one({"model": model_name})
+    if not doc:
+        raise HTTPException(status_code=404, detail="Device not found in database")
+
+    questions = []
+    answers = []
+    for item in doc.get("questions", []):
+        q = item.get("question", "").strip()
+        a = item.get("answer", "").strip()
+        if q and a:
+            questions.append(q)
+            answers.append(a)
+
+    if not questions:
+        raise HTTPException(status_code=404, detail="No questions available for this model")
+
     embeddings = model.encode(questions, convert_to_numpy=True)
     index = faiss.IndexFlatL2(embeddings.shape[1])
     index.add(embeddings)
-    device_data[device.lower()] = {
+
+    device_cache[model_name] = {
         "questions": questions,
         "answers": answers,
         "index": index
     }
+    return device_cache[model_name]
 
 @app.post("/ask")
 def ask_faq(req: ChatRequest):
-    device = req.device.lower()
-    if device not in device_data:
-        raise HTTPException(status_code=404, detail="Device not found")
-
-    entry = device_data[device]
+    entry = load_device_data(req.device)
     user_embedding = model.encode([req.question])[0]
     D, I = entry["index"].search(np.array([user_embedding]), k=1)
     best_idx = I[0][0]
     distance = D[0][0]
-    similarity = 1 - distance / 4  # Rough cosine-like approximation
+    similarity = 1 - distance / 4  # tweakable
 
     if similarity > 0.7:
         return {
@@ -67,6 +90,6 @@ def ask_faq(req: ChatRequest):
         }
     else:
         return {
-            "answer": f"Sorry, I couldn’t find a good answer for your {device} question.",
+            "answer": f"Sorry, I couldn’t find a good answer for your {req.device} question.",
             "similarity": float(round(similarity, 2))
         }
