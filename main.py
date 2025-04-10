@@ -88,10 +88,13 @@ def ask_faq(req: ChatRequest):
     except Exception as embed_err:
         raise HTTPException(status_code=500, detail="Failed to process your question.")
 
-    D, I = entry["index"].search(np.array([user_embedding]), k=1)
-    best_idx = I[0][0]
-    distance = D[0][0]
-    similarity = 1 - distance / 4  # tweakable
+    try: 
+        D, I = entry["index"].search(np.array([user_embedding]), k=1)
+        best_idx = I[0][0]
+        distance = D[0][0]
+        similarity = 1 - distance / 4  # tweakable
+    except Exception as search_err:
+        raise HTTPException(status_code=500, detail="Failed to find a similar question.")
 
     if similarity > 0.7:
         return {
