@@ -81,8 +81,13 @@ def load_device_data(model_name: str):
 @app.post("/ask")
 def ask_faq(req: ChatRequest):
     entry = load_device_data(req.device)
-    user_query = req.question.lower().replace(req.device.lower(), "").strip()
-    user_embedding = model.encode([user_query])[0]
+
+    try:
+        user_query = req.question.lower().replace(req.device.lower(), "").strip()
+        user_embedding = model.encode([user_query])[0]
+    except Exception as embed_err:
+        raise HTTPException(status_code=500, detail="Failed to process your question.")
+
     D, I = entry["index"].search(np.array([user_embedding]), k=1)
     best_idx = I[0][0]
     distance = D[0][0]
