@@ -34,8 +34,6 @@ MONGO_URI = os.getenv("MONGO_URI")
 DB_NAME = "mdvd"
 COLLECTION_NAME = "mdve"
 
-print("Mongo URI:", MONGO_URI)
-
 client = MongoClient(MONGO_URI)
 collection = client[DB_NAME][COLLECTION_NAME]
 
@@ -43,7 +41,6 @@ collection = client[DB_NAME][COLLECTION_NAME]
 device_cache = {}
 
 def load_device_data(model_name: str):
-    # model_name = model_name.lower()
     if model_name in device_cache:
         return device_cache[model_name]
 
@@ -52,26 +49,33 @@ def load_device_data(model_name: str):
         raise HTTPException(status_code=404, detail="Device not found in database")
 
     questions = []
+    cleaned_questions = []
     answers = []
+
     for item in doc.get("questions", []):
         q = item.get("question", "").strip()
         a = item.get("answer", "").strip()
         if q and a:
             questions.append(q)
+            # Remove model name (case-insensitive, word-boundary safe)
+            q_cleaned = q.lower().replace(model_name.lower(), "").strip()
+            cleaned_questions.append(q_cleaned)
             answers.append(a)
 
-    if not questions:
+    if not cleaned_questions:
         raise HTTPException(status_code=404, detail="No questions available for this model")
 
-    embeddings = model.encode(questions, convert_to_numpy=True)
+    embeddings = model.encode(cleaned_questions, convert_to_numpy=True)
     index = faiss.IndexFlatL2(embeddings.shape[1])
     index.add(embeddings)
 
     device_cache[model_name] = {
-        "questions": questions,
+        "original_questions": questions,
+        "cleaned_questions": cleaned_questions,
         "answers": answers,
         "index": index
     }
+
     return device_cache[model_name]
 
 @app.post("/ask")
