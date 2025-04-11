@@ -1,57 +1,164 @@
 [
   {
-    "device": "AirSense 11",
-    "question": "How do I clean the AirSense 11 mask?",
-    "answer": "Wash it daily using warm water and mild detergent. Let it air dry."
+    "_id": "67f6c720601bf6fbcf745721",
+    "model": "Fisher Paykel SleepStyle",
+    "questions": [
+      {
+        "question": "How do I properly clean and maintain my Fisher & Paykel SleepStyle machine?",
+        "answer": "To ensure your Fisher & Paykel SleepStyle machine operates safely and efficiently, it's important to follow a regular cleaning and maintenance routine:\n\nDaily Care:\n- Turn off and unplug the machine before cleaning.\n- Wipe down the exterior with a soft, damp cloth.\n- Clean the mask and tubing using warm, soapy water to remove oils and debris.\n\nWeekly Cleaning:\n- Remove and carefully wash the mask cushion, tubing, and any detachable components as directed in the user manual.\n- Rinse thoroughly and allow all parts to air dry completely before reassembling.\n\nFilter & Accessory Maintenance:\n- Check and clean or replace filters according to the manufacturer's instructions.\n\nDisclaimer: These guidelines are for general informational purposes only. Always refer to your device's user manual and consult a healthcare professional for personalized advice."
+      },
+      {
+        "question": "How do I adjust or personalize the therapy settings on my Fisher & Paykel SleepStyle machine?",
+        "answer": "The Fisher & Paykel SleepStyle machine features an intuitive interface that allows you to view and adjust several therapy settings. Here's a general guide:\n\nAccessing Settings:\n- Use the control panel or touchscreen to navigate to the settings menu.\n- Review the current therapy parameters including pressure settings, humidification levels, and ramp time.\n\nCustom Adjustments:\n- While non-critical settings like ramp time or humidification can typically be modified directly on the device, changes to prescribed pressure levels should only be made under the guidance of your healthcare provider.\n\nOn-Screen Assistance:\n- Consult the built-in help options or the user manual for detailed instructions on how to adjust settings.\n\nDisclaimer: Always adjust therapy settings with professional guidance to ensure safe and effective treatment."
+      },
+      {
+        "question": "What should I do if my Fisher & Paykel SleepStyle machine displays an error or malfunctions?",
+        "answer": "If your Fisher & Paykel SleepStyle machine displays an error or malfunctions, follow these troubleshooting steps:\n\n1. Identify the Error:\n- Check for any error codes or messages on the display and refer to the user manual for their meaning.\n\n2. Basic Troubleshooting:\n- Confirm that the machine is properly plugged in and that all connections (mask, tubing, power) are secure.\n- Perform routine cleaning of the device components to remove any possible obstructions or debris.\n\n3. Further Action:\n- If the issue persists after these checks, contact Fisher & Paykel customer support or consult your healthcare provider for further assistance.\n- Avoid attempting internal repairs yourself as this may void your warranty or lead to additional issues.\n\nDisclaimer: The above steps are intended as general guidelines. For persistent issues or emergencies, please seek professional assistance immediately."
+      }
+    ]
   },
   {
-    "device": "AirSense 11",
-    "question": "How do I use AirSense 11?",
-    "answer": "Wash it daily using warm water and mild detergent. Let it air dry."
+    "_id": "67f6c720601bf6fbcf74571a",
+    "model": "AirSense 11",
+    "questions": [
+      {
+        "question": "How do I properly clean and maintain my AirSense 11 CPAP machine?",
+        "answer": "To ensure your AirSense 11 CPAP machine operates safely and efficiently, it's important to follow a regular cleaning and maintenance routine:\n\nDaily Care:\n- Wipe down the exterior with a soft, damp cloth.\n- For cleaning the mask or tubing, use warm, soapy water to remove any accumulated oils or debris.\n\nWeekly Cleaning:\n- Remove and gently wash the mask cushion, tubing, and water chamber (if applicable).\n- Rinse all parts thoroughly and allow them to air dry before reassembling.\n\nFilter Check:\n- Check the air filter regularly. Some models use disposable filters that should be replaced according to the manufacturer's guidelines, whereas reusable filters may need a gentle wash and proper drying.\n\nFollow Manufacturer's Instructions:\n- Always refer to the AirSense 11 CPAP user manual for detailed cleaning steps and recommendations on maintenance routines.\n\nDisclaimer: These instructions are provided for informational purposes only. For safe device use and optimal performance, please follow the guidelines specific to your device and consult a healthcare professional if you have any concerns."
+      },
+      {
+        "question": "How do I adjust or personalize the therapy settings on my AirSense 11 CPAP machine?",
+        "answer": "The AirSense 11 CPAP machine typically comes with a user-friendly interface that allows you to view and, in some cases, adjust certain settings. Here's a general guide on how to navigate and modify the settings:\n\nAccessing Settings:\n- Use the integrated touchscreen or control buttons to access the main menu.\n- Navigate to the settings section to review current therapy parameters.\n\nCustomization:\n- While basic adjustments (such as ramp time or humidity levels) may be available, important therapy settings like prescribed pressure levels should only be modified under the supervision of your sleep specialist or healthcare provider.\n\nUsing the Built-In Help:\n- Many CPAP devices include an on-screen guide or help section that explains each setting and its recommended use.\n\nProfessional Guidance:\n- If you're unsure about which settings to change or if you notice discrepancies in the therapy data, contact your healthcare provider for proper guidance.\n\nDisclaimer: Always ensure any adjustments are made in consultation with a qualified professional, as improper settings could compromise therapy effectiveness."
+      },
+      {
+        "question": "What should I do if my AirSense 11 CPAP machine displays an error or malfunctions?",
+        "answer": "If you encounter an error message or any malfunction with your AirSense 11 CPAP machine, follow these steps:\n\nReview the Error Code:\n- Most devices display an error code or message that corresponds to a specific issue (e.g., connectivity problems, sensor errors, or power-related issues). Consult your user manual's troubleshooting section to decode the message.\n\nBasic Troubleshooting:\n- Ensure the power cord is securely connected and that the outlet is functioning.\n- Verify that all accessories (mask, tubing, water chamber) are properly attached.\n- Clean the device and its components if any obstruction or debris is suspected.\n\nFurther Action:\n- If the error persists after these steps, contact the manufacturer's customer service or your healthcare provider.\n- Avoid attempting any internal repairs as this may void your warranty or cause further damage.\n\nDisclaimer: These troubleshooting steps are provided for guidance only. For persistent issues or emergencies, please seek professional support immediately."
+      }
+    ]
   },
   {
-    "device": "AirSense 10",
-    "question": "How do I adjust humidity settings on the AirSense 10?",
-    "answer": "Use the dial to navigate to the humidity control screen and adjust as needed."
+    "_id": "67f6c720601bf6fbcf74571f",
+    "model": "Philips Respironic",
+    "questions": [
+      {
+        "question": "How do I properly clean and maintain my Philips Respironics CPAP machine?",
+        "answer": "To ensure your Philips Respironics CPAP machine operates effectively, it is important to follow a regular cleaning schedule:\n\nDaily Care:\n- Turn off and unplug the machine before cleaning.\n- Wipe the exterior with a clean, soft, damp cloth.\n- Carefully clean the mask and tubing with warm, soapy water to remove oils and contaminants.\n\nWeekly Cleaning:\n- Remove and wash the mask cushion, tubing, and any removable components as recommended in the user manual.\n- Rinse all parts thoroughly and let them air dry completely before reassembling.\n\nFilter Maintenance:\n- Inspect and replace or clean the air filter as per the manufacturer's guidelines.\n\nDisclaimer: These instructions are general guidelines. Always refer to your specific user manual for precise directions and consult a healthcare professional for personalized advice."
+      },
+      {
+        "question": "How do I adjust or personalize the therapy settings on my Philips Respironics CPAP machine?",
+        "answer": "Your Philips Respironics CPAP machine provides an intuitive interface that allows you to customize therapy settings based on your prescription:\n\nAccessing Settings:\n- Use the control panel or touchscreen to navigate to the main menu.\n- Select the settings section to view current therapy parameters.\n\nCustom Adjustments:\n- You may adjust non-critical settings like ramp time and humidity directly on the device.\n- For changes to critical settings such as pressure levels, always consult your healthcare provider first.\n\nDisclaimer: Adjust any therapy settings only under professional guidance to ensure the safety and effectiveness of your treatment."
+      },
+      {
+        "question": "What should I do if my Philips Respironics CPAP machine displays an error or malfunctions?",
+        "answer": "If your Philips Respironics CPAP machine shows an error message or malfunctions, follow these steps:\n\nIdentify the Error Code:\n- Note any error codes or messages and refer to your user manual for their meanings.\n\nBasic Troubleshooting:\n- Ensure that the machine is properly plugged in and that all connections (mask, tubing, power) are secure.\n- Perform a cleaning of the device and its components if needed.\n\nFurther Steps:\n- If the issue persists, contact Philips Respironics customer support or your healthcare provider for further assistance.\n- Avoid attempting internal repairs as this may void your warranty or lead to additional problems.\n\nDisclaimer: These troubleshooting steps are intended as general advice. For persistent issues or emergencies, please seek professional assistance immediately."
+      }
+    ]
   },
   {
-    "device": "AirCurve 10",
-    "question": "Can I travel with the AirCurve 10?",
-    "answer": "Yes, it is FAA-approved for air travel. Use a travel case for protection."
+    "_id": "67f6c720601bf6fbcf74571b",
+    "model": "AirSense 10",
+    "questions": [
+      {
+        "question": "How do I properly clean and maintain my AirSense 10 CPAP machine?",
+        "answer": "To ensure your AirSense 10 CPAP machine operates safely and efficiently, it's important to follow a regular cleaning and maintenance routine:\n\nDaily Care:\n- Wipe down the exterior with a soft, damp cloth.\n- Clean the mask and tubing using warm, soapy water to remove oils and debris.\n\nWeekly Cleaning:\n- Remove and gently wash the mask cushion, tubing, and water chamber (if applicable).\n- Rinse thoroughly and let the parts air dry completely before reassembling.\n\nFilter Check:\n- Regularly inspect the air filter. Depending on your device's guidelines, you may need to replace a disposable filter or clean a reusable one.\n\nManufacturer Guidelines:\n- Always follow the cleaning steps specified in the AirSense 10 CPAP user manual.\n\nDisclaimer: These instructions are provided for informational purposes only. For safe and effective use, please refer to your device's manual and consult your healthcare professional."
+      },
+      {
+        "question": "How do I adjust or personalize the therapy settings on my AirSense 10 CPAP machine?",
+        "answer": "The AirSense 10 CPAP machine features an intuitive interface that allows users to access and adjust certain settings. Below are some general guidelines:\n\nAccessing the Settings Menu:\n- Use the control panel or touchscreen to open the main menu.\n- Navigate to the settings section to view current therapy parameters.\n\nAdjustable Settings:\n- You can modify features such as ramp time and humidity levels directly on the device.\n- Changes to prescribed pressure settings should only be done under the supervision of your sleep specialist or healthcare provider.\n\nOn-Screen Assistance:\n- Consult the on-device help section for detailed explanations of each setting.\n\nProfessional Guidance:\n- If you're uncertain about making any adjustments or notice discrepancies, contact your healthcare provider for support.\n\nDisclaimer: Always make changes to therapy settings with professional guidance to ensure your treatment remains safe and effective."
+      },
+      {
+        "question": "What should I do if my AirSense 10 CPAP machine displays an error or malfunctions?",
+        "answer": "In the event that your AirSense 10 CPAP machine displays an error message or malfunctions, follow these steps:\n\nIdentify the Error Code:\n- The device will display an error code or message that indicates the problem (e.g., connectivity, sensor, or power issues).\n- Refer to your user manual's troubleshooting section for specifics on the error code.\n\nBasic Troubleshooting:\n- Ensure that the power cord is securely connected and that the outlet is functioning properly.\n- Verify that all components (mask, tubing, water chamber, etc.) are correctly attached.\n- Clean the device components if there is any suspicion of debris or obstructions.\n\nFurther Action:\n- If the error persists after these steps, contact the manufacturer's customer support or consult your healthcare provider.\n- Do not attempt any repairs yourself as this may void your warranty or lead to further issues.\n\nDisclaimer: These troubleshooting steps are provided as a general guide. For persistent issues or emergencies, seek professional assistance immediately."
+      }
+    ]
   },
   {
-    "device": "DreamStation 2",
-    "question": "What filters does the DreamStation 2 use?",
-    "answer": "It uses both reusable pollen filters and optional disposable ultra-fine filters."
+    "_id": "67f6c720601bf6fbcf745722",
+    "model": "Lowenstein Prisma",
+    "questions": [
+      {
+        "question": "How do I properly clean and maintain my Lowenstein Prisma CPAP machine?",
+        "answer": "To ensure optimal performance of your Lowenstein Prisma CPAP machine, follow a regular cleaning and maintenance routine:\n\nDaily Care:\n- Turn off and unplug the device before cleaning.\n- Wipe the exterior gently with a soft, damp cloth.\n- Clean the mask and tubing with warm, soapy water to remove oils and debris.\n\nWeekly Maintenance:\n- Detach and wash the mask cushion, tubing, and any removable filters or water chambers as directed in the user manual.\n- Rinse all components thoroughly and allow them to air dry completely before use.\n\nDisclaimer: These guidelines are for general informational purposes only. Always refer to your device's manual and consult your healthcare provider for personalized instructions."
+      },
+      {
+        "question": "How do I adjust or personalize the therapy settings on my Lowenstein Prisma CPAP machine?",
+        "answer": "The Lowenstein Prisma CPAP machine is equipped with an intuitive interface that allows you to view and adjust various therapy settings. Here's a general guideline:\n\nAccessing Settings:\n- Use the control panel or touchscreen to navigate to the settings menu.\n- Review current therapy parameters such as pressure settings, humidity, and ramp time.\n\nAdjustments:\n- Non-critical settings like ramp time or humidification can usually be adjusted directly on the device.\n- For changes to essential parameters like prescribed pressure levels, consult your healthcare provider to ensure safe and effective therapy.\n\nDisclaimer: Always make adjustments under professional guidance to maintain the efficacy of your treatment."
+      },
+      {
+        "question": "What should I do if my Lowenstein Prisma CPAP machine displays an error or malfunctions?",
+        "answer": "If your Lowenstein Prisma CPAP machine displays an error or malfunctions, perform the following troubleshooting steps:\n\n1. Identify the Error:\n- Check for any error codes or messages on the display, and refer to the user manual for their meanings.\n\n2. Basic Troubleshooting:\n- Ensure the device is securely plugged in and all connections (mask, tubing, power) are correctly attached.\n- Clean the device components if debris or blockages are suspected.\n\n3. Further Action:\n- If the error persists after basic troubleshooting, contact customer support or consult your healthcare provider for further assistance.\n\nDisclaimer: These steps are provided as a general guide. For persistent issues or emergencies, seek professional assistance immediately."
+      }
+    ]
   },
   {
-    "device": "ResMed Lumis",
-    "question": "How do I access therapy data on ResMed Lumis?",
-    "answer": "Navigate through the clinical menu to view detailed therapy statistics."
+    "_id": "67f6c720601bf6fbcf745720",
+    "model": "Devilbiss IntelliPAP",
+    "questions": [
+      {
+        "question": "How do I properly clean and maintain my DeVilbiss IntelliPAP machine?",
+        "answer": "To ensure your DeVilbiss IntelliPAP machine continues to operate efficiently and safely, it is important to follow a regular cleaning and maintenance routine:\n\nDaily Care:\n- Turn off and unplug the machine before cleaning.\n- Wipe down the exterior with a soft, damp cloth.\n- Clean the mask and tubing with warm, soapy water to remove oils and debris.\n\nWeekly Cleaning:\n- Detach components such as the mask cushion and any removable filters or water chambers (if applicable).\n- Rinse all parts thoroughly and allow them to air dry completely before reassembling.\n\nFilter & Accessory Maintenance:\n- Check and clean or replace the air filter as recommended in the user manual.\n\nDisclaimer: These instructions are provided for general guidance only. Always refer to your DeVilbiss IntelliPAP user manual and consult your healthcare provider for personalized advice."
+      },
+      {
+        "question": "How do I adjust or personalize the therapy settings on my DeVilbiss IntelliPAP machine?",
+        "answer": "The DeVilbiss IntelliPAP machine features an intuitive interface that allows you to view and, in some cases, adjust your therapy settings. Here's how you can manage your settings:\n\nAccessing the Menu:\n- Use the control panel or touchscreen to navigate to the main menu.\n- Select the settings option to view current therapy parameters.\n\nAdjusting Settings:\n- You may adjust non-critical parameters (like ramp time or humidity) directly on the device.\n- Critical settings, such as prescribed pressure levels, should only be modified under the supervision of your healthcare provider.\n\nOn-Screen Help:\n- Refer to the built-in help guides or your user manual for further details on each setting.\n\nDisclaimer: Always make changes to your therapy settings with professional guidance to ensure safe and effective treatment."
+      },
+      {
+        "question": "What should I do if my DeVilbiss IntelliPAP machine displays an error or malfunctions?",
+        "answer": "If your DeVilbiss IntelliPAP machine displays an error message or malfunctions, follow these troubleshooting steps:\n\nIdentify the Error:\n- Note any error codes or messages displayed on the screen and refer to your user manual for their meanings.\n\nBasic Troubleshooting:\n- Ensure that the machine is properly plugged in and that all connections (mask, tubing, power) are secure.\n- Clean the components to remove any debris or blockages that might be affecting performance.\n\nFurther Action:\n- If the error persists after performing these checks, contact DeVilbiss customer support or consult your healthcare provider for additional assistance.\n- Do not attempt to repair the internal components yourself as this may void your warranty or cause further damage.\n\nDisclaimer: These guidelines are intended for general troubleshooting only. For ongoing issues or emergencies, seek professional assistance immediately."
+      }
+    ]
   },
   {
-    "device": "Philips Respironics",
-    "question": "How do I reset the Philips Respironics device?",
-    "answer": "Hold down the ramp button for 10 seconds until the screen flashes."
+    "_id": "67f6c720601bf6fbcf74571e",
+    "model": "ResMed Lumis",
+    "questions": [
+      {
+        "question": "How do I properly clean and maintain my ResMed Lumis CPAP machine?",
+        "answer": "To ensure that your ResMed Lumis CPAP machine operates at its best, it's crucial to follow a regular cleaning routine:\n\nDaily Care:\n- Turn off and unplug the device before cleaning.\n- Wipe the exterior with a soft, damp cloth.\n- Clean the mask and tubing using warm, soapy water to remove oils and debris.\n\nWeekly Cleaning:\n- Remove and thoroughly wash the mask cushion, tubing, and any detachable components as directed in the user manual.\n- Rinse all parts well and allow them to air dry completely before reassembling.\n\nFilter Maintenance:\n- Check and replace or clean the filters following the guidelines in your user manual.\n\nDisclaimer: These instructions are intended for general guidance only. Always refer to your ResMed Lumis user manual and consult a healthcare professional for personalized advice."
+      },
+      {
+        "question": "How do I adjust or personalize the therapy settings on my ResMed Lumis CPAP machine?",
+        "answer": "The ResMed Lumis CPAP machine comes with an intuitive interface that allows you to view and, in some cases, adjust therapy settings. Follow these guidelines:\n\nAccess the Settings Menu:\n- Use the touchscreen or control buttons to access the main menu.\n- Navigate to the settings section to review current therapy parameters.\n\nPersonalization:\n- Adjust settings such as pressure levels, humidity, and ramp time as allowed by your device.\n- Consult your healthcare provider before making changes to any critical therapy settings.\n\nOn-Screen Assistance:\n- Refer to the on-screen prompts or user manual for detailed instructions on adjusting settings.\n\nDisclaimer: Ensure any changes are made under professional guidance to maintain the effectiveness of your therapy."
+      },
+      {
+        "question": "What should I do if my ResMed Lumis CPAP machine displays an error or malfunctions?",
+        "answer": "If your ResMed Lumis CPAP machine shows an error or malfunctions, follow these troubleshooting steps:\n\n1. Review the Error Message:\n- The device may display a code or message that indicates the specific issue. Check the user manual for explanations.\n\n2. Basic Troubleshooting:\n- Ensure the device is plugged in securely and that all connections (mask, tubing, power) are intact.\n- Clean the components to remove any debris that might interfere with performance.\n\n3. Contact Support:\n- If the error persists after basic troubleshooting, contact ResMed customer support or consult your healthcare provider.\n- Do not attempt internal repairs as this could void your warranty or cause further issues.\n\nDisclaimer: These steps are provided as a general guide. For persistent problems or emergencies, seek professional assistance immediately."
+      }
+    ]
   },
   {
-    "device": "DeVilbiss IntelliPAP",
-    "question": "How do I replace the water chamber on DeVilbiss IntelliPAP?",
-    "answer": "Slide out the chamber from the humidifier base and insert a new one."
+    "_id": "67f6c720601bf6fbcf74571c",
+    "model": "AirCurve 10",
+    "questions": [
+      {
+        "question": "How do I properly clean and maintain my ResMed AirCurve 10 VAuto BiPAP machine?",
+        "answer": "To ensure your ResMed AirCurve 10 VAuto BiPAP machine continues to function safely and efficiently, it's important to adhere to a regular cleaning and maintenance routine:\n\nDaily Care:\n- Turn off and unplug the machine before cleaning.\n- Wipe down the exterior with a soft, damp cloth.\n- Clean the mask and tubing using warm, soapy water to remove oils and debris.\n\nWeekly Cleaning:\n- Detach and wash the mask cushion, tubing, and water chamber (if applicable).\n- Rinse all components thoroughly and allow them to air dry completely before reassembling.\n\nFilter Maintenance:\n- Inspect and clean or replace the air filter following the manufacturer's recommendations.\n\nNote:\n- Always refer to the ResMed AirCurve 10 VAuto BiPAP user manual for device-specific instructions.\n\nDisclaimer: These instructions are provided for informational purposes only. Please follow the guidelines in your user manual and consult a healthcare professional for personalized advice."
+      },
+      {
+        "question": "How do I adjust or personalize the therapy settings on my ResMed AirCurve 10 VAuto BiPAP machine?",
+        "answer": "The ResMed AirCurve 10 VAuto BiPAP machine features a user-friendly interface that allows you to access and modify certain therapy settings. Here's a general guide:\n\nAccessing the Settings:\n- Use the touchscreen or control panel to navigate to the main menu.\n- Select the settings section to view current therapy parameters.\n\nAdjustments:\n- Modify settings such as pressure support, backup rate, ramp time, and other parameters based on your prescribed therapy.\n- Any changes to essential therapy settings should only be made under the guidance of your healthcare provider.\n\nOn-Screen Guidance:\n- The device may offer built-in help or descriptive information for each setting.\n\nDisclaimer: Always consult with a qualified professional before making any adjustments to ensure your treatment remains safe and effective."
+      },
+      {
+        "question": "What should I do if my ResMed AirCurve 10 VAuto BiPAP machine displays an error or malfunctions?",
+        "answer": "If your ResMed AirCurve 10 VAuto BiPAP machine displays an error or malfunctions, follow these troubleshooting steps:\n\n1. Identify the Error Code:\n- The machine will display an error code or message indicating the issue (e.g., connectivity, sensor, or power problems). Refer to the user manual to interpret the code.\n\n2. Basic Troubleshooting:\n- Verify that the machine is securely plugged in and that all connections (mask, tubing, power) are properly attached.\n- Clean the device components if you suspect debris or obstructions.\n\n3. Further Action:\n- If the error persists after basic troubleshooting, contact ResMed customer support or consult your healthcare provider for additional guidance.\n- Do not attempt any internal repairs, as this may void the warranty or lead to further damage.\n\nDisclaimer: These steps are intended as general guidelines. For persistent issues or emergencies, seek professional assistance immediately."
+      }
+    ]
   },
   {
-    "device": "Fisher & Paykel SleepStyle",
-    "question": "How do I enable airplane mode on SleepStyle?",
-    "answer": "Press and hold the menu button until the airplane icon appears."
-  },
-  {
-    "device": "Lowenstein Prisma",
-    "question": "How do I update the firmware on Prisma?",
-    "answer": "Firmware updates require a USB stick and software provided by the manufacturer."
-  },
-  {
-    "device": "Other Medical Device",
-    "question": "What should I do if my device displays an error code?",
-    "answer": "Refer to the user manual or contact your provider for troubleshooting steps."
+    "_id": "67f6c720601bf6fbcf74571d",
+    "model": "DreamStation 2",
+    "questions": [
+      {
+        "question": "How do I properly clean and maintain my DreamStation 2 CPAP machine?",
+        "answer": "To ensure your DreamStation 2 CPAP machine functions safely and effectively, it is important to follow a regular cleaning and maintenance routine:\n\nDaily Care:\n- Turn off and unplug the machine before cleaning.\n- Wipe the exterior with a soft, damp cloth.\n- Clean the mask and tubing with warm, soapy water to remove oils and debris.\n\nWeekly Cleaning:\n- Detach and wash the mask cushion, tubing, and any other removable components as specified in the user manual.\n- Rinse thoroughly and allow all parts to air dry completely before reassembling.\n\nFilter Check:\n- Regularly inspect the air filter and replace or clean it according to the manufacturer's guidelines.\n\nDisclaimer: These cleaning instructions are provided for informational purposes only. Always refer to your DreamStation 2 user manual and consult a healthcare professional for personalized advice."
+      },
+      {
+        "question": "How do I adjust or personalize the therapy settings on my DreamStation 2 CPAP machine?",
+        "answer": "The DreamStation 2 CPAP machine provides an intuitive interface that allows you to view and modify therapy settings. Here's a general guide:\n\nAccessing Settings:\n- Use the touchscreen or control buttons to navigate to the settings menu.\n- View current therapy parameters, including pressure settings, humidity level, and ramp time.\n\nCustomization:\n- Adjustments to basic settings can typically be made directly on the device.\n- For changes to critical therapy parameters, such as pressure levels, always seek guidance from your healthcare provider.\n\nOn-Screen Assistance:\n- Consult the on-screen help or your user manual for detailed instructions on each setting.\n\nDisclaimer: Ensure any adjustments are made with professional guidance to maintain safe and effective therapy."
+      },
+      {
+        "question": "What should I do if my DreamStation 2 CPAP machine displays an error or malfunctions?",
+        "answer": "If your DreamStation 2 CPAP machine displays an error or malfunctions, follow these troubleshooting steps:\n\nIdentify the Error Code:\n- Note any error messages or codes and refer to your user manual for their meanings.\n\nBasic Troubleshooting:\n- Confirm that the machine is securely plugged in and that all connections (mask, tubing, power cable) are properly attached.\n- Clean the device components if there is any sign of debris or obstruction.\n\nFurther Action:\n- If the error persists after basic troubleshooting, contact Philips Respironics customer support or consult your healthcare provider for further assistance.\n- Do not attempt internal repairs on your own as this may void your warranty or cause further damage.\n\nDisclaimer: These steps are intended as general guidelines. For persistent issues or emergencies, please seek professional assistance immediately."
+      }
+    ]
   }
 ]
