@@ -5,6 +5,7 @@ from pymongo import MongoClient
 import faiss
 import numpy as np
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi import Query
 
 # Load environmental variable
 import os
@@ -106,3 +107,23 @@ def ask_faq(req: ChatRequest):
             "answer": f"Sorry, I couldn’t find a good answer for your {req.device} question.",
             "similarity": float(round(similarity, 2))
         }
+
+@app.get("/faqs")
+def get_faq_questions(device: str = Query(..., description="Device model name")):
+    doc = collection.find_one({"model": device})
+    if not doc:
+        raise HTTPException(status_code=404, detail="Device not found")
+
+    questions = [
+        q.get("question", "")
+        for q in doc.get("questions", [])
+        if q.get("question")
+    ]
+
+    if not questions:
+        raise HTTPException(status_code=404, detail="No questions found for this device")
+
+    return {
+        "model": device,
+        "questions": questions
+    }
