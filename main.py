@@ -17,7 +17,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://med-view-ai-system-frontend.vercel.app/"],  # or ["*"] for dev
+    allow_origins=["http://localhost:5173", "https://med-view-ai-system-frontend.vercel.app", "https://med-view-ai-system-frontend.vercel.app/"],  # or ["*"] for dev
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
