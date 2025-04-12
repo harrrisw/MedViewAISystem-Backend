@@ -6,6 +6,7 @@ import faiss
 import numpy as np
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import Query
+from rag import run_query
 
 # Load environmental variable
 import os
@@ -127,3 +128,14 @@ def get_faq_questions(device: str = Query(..., description="Device model name"))
         "model": device,
         "questions": questions
     }
+
+@app.post("/ask-rag")
+def ask_rag(req: ChatRequest):
+    try:
+        answer, sources = run_query(req.question, req.device)
+        return {
+            "answer": answer.content,
+            "sources": sources
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail="Failed to process your question.")
