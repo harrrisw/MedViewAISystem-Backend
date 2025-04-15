@@ -14,3 +14,9 @@ faiss-cpu
 
 # Utilities
 numpy
+
+# LangChain ecosystem (modular)
+langchain-core
+langchain-community
+langchain-openai
+langchain-astradb
